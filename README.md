@@ -23,3 +23,11 @@ This repository contains all the code and PPT's for future reference.
     * Linear Search
     * Binary Search
 
+
+## Day 3:
+1. Sorting Algorithms
+   * Bubble Sort
+   * Selection sort
+   * Insertion Sort
+2. Kadane's Algorithm
+
