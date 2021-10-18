@@ -31,3 +31,15 @@ This repository contains all the code and PPT's for future reference.
    * Insertion Sort
 2. Kadane's Algorithm
 
+## Day 4:
+1. Strings
+   * Introduction
+   * Various inbuilt functions
+   * ASCII values
+2. Questions solved:
+   * Print frequencies of characters in sorted order in a string of lower case alphabets.
+   * Check Palindrome ?
+   * Check if a string is subsequence of other ?
+   * Check for anagram ?
+   * Toggle string
+
