@@ -1,7 +1,7 @@
 # Winter-Industrial-Training-GirlScript
 This repository contains all the code and PPT's for future reference.
 
-## Day 1:
+## Day 1 (11/10/2021):
 1. Introduction to Data Structures 
 2. Types of Data Structures
 3. Complexity Analysis
@@ -9,7 +9,7 @@ This repository contains all the code and PPT's for future reference.
     * Insertion , deletion and update
     * Find largest and second largest element in an array
 
-## Day 2:
+## Day 2 (12/10/2021):
 1. Array Rotation
 2. 2D Matrix
     * Introduction
@@ -24,14 +24,14 @@ This repository contains all the code and PPT's for future reference.
     * Binary Search
 
 
-## Day 3:
+## Day 3 (13/10/2021):
 1. Sorting Algorithms
    * Bubble Sort
    * Selection sort
    * Insertion Sort
 2. Kadane's Algorithm
 
-## Day 4:
+## Day 4 (14/10/2021):
 1. Strings
    * Introduction
    * Various inbuilt functions
@@ -43,3 +43,11 @@ This repository contains all the code and PPT's for future reference.
    * Check for anagram ?
    * Toggle string
 
+## Day 5 (18/10/2021):
+1. Vectors in C++
+2. Recursion
+   * Factorial of a number
+   * Fibonacci series
+   * Calculate pow(a,n) in log(n) time
+   * Generate all subsets 
+   * Subset sum problem
