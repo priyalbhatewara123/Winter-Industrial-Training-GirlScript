@@ -51,3 +51,9 @@ This repository contains all the code and PPT's for future reference.
    * Calculate pow(a,n) in log(n) time
    * Generate all subsets 
    * Subset sum problem
+
+## Day 6 (19/10/2021):
+1. Print all subsets with given sum
+2. Tower of Hanoi
+3. Merge Sort
+4. Quick Sort
