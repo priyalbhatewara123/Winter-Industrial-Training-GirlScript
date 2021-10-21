@@ -57,3 +57,13 @@ This repository contains all the code and PPT's for future reference.
 2. Tower of Hanoi
 3. Merge Sort
 4. Quick Sort
+
+## Day 7 (20/10/2021):
+1. Inversion Count
+2. Number Theory
+   * Count digits in an Integer
+   * Check if given number is palindrome
+   * HCF and LCM
+   * Check if n is prime or not?
+   * Find all prime factors of a number
+   * Find no of trailing zeros in factorial of a number
