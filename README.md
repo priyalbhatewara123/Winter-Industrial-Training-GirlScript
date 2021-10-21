@@ -67,3 +67,12 @@ This repository contains all the code and PPT's for future reference.
    * Check if n is prime or not?
    * Find all prime factors of a number
    * Find no of trailing zeros in factorial of a number
+  
+## Day 8 (21/10/2021)
+1. Sieve of Eratosthenes
+2. Bit Manipulation
+   * Basics
+   * Check kth bit
+   * Count no of set bits
+   * Unique number
+   * Unique number II
