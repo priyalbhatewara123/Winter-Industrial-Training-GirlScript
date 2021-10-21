@@ -1,0 +1,24 @@
+Bit Manipulation
+
+Bitwise operators:
+
+1. AND - & (1 only when both the bits are set)
+2. OR - | (1 when atleast 1 bit is set)
+3. XOR - ^ (gives 1 when both bits are different)
+4. LEFT SHIFT  <<  
+5. RIGHT SHIFT >>
+6. NOT ~
+
+
+
+Left Shift operator
+
+4 :     00000.....0100 
+
+4 << 1  00000.....1000
+
+
+Right shift operator
+4 :     00000.....0100 
+
+4 >> 1   0000.....0010
