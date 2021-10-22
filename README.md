@@ -76,3 +76,14 @@ This repository contains all the code and PPT's for future reference.
    * Count no of set bits
    * Unique number
    * Unique number II
+
+## Day 9 (22/10/2021)
+1. Unique Number III
+2. Singly Linked List
+   * Insertion at Head
+   * Insertion at Tail
+   * Insertion in Middle
+   * Deletion at Head
+   * Deletion at Tail
+   * Deletion in Middle
+   * Length of Linked List
