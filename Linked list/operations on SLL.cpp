@@ -8,7 +8,7 @@ public:
 		data = d;
 		next = NULL;
 	}
-}
+};
 
 
 // 1. Insertion at beginning - O(1)
