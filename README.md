@@ -87,3 +87,13 @@ This repository contains all the code and PPT's for future reference.
    * Deletion at Tail
    * Deletion in Middle
    * Length of Linked List
+
+## Day 10 (25/10/2021)
+1. Circular Linked list 
+   * Insertion at Head
+   * Insertion at Tail
+   * Insertion in Middle
+   * Deletion at Head
+   * Deletion at Tail
+   * Deletion in Middle
+2. Reverse a Linked List
