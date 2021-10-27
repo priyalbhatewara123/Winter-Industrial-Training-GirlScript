@@ -97,3 +97,14 @@ This repository contains all the code and PPT's for future reference.
    * Deletion at Tail
    * Deletion in Middle
 2. Reverse a Linked List
+
+## Day 11 (27/10/2021)
+1. Doubly Linked List
+   * Insertion at Head
+   * Insertion at Tail
+   * Insertion in Middle
+   * Deletion at Head
+   * Deletion at Tail
+   * Deletion in Middle
+2. Intersection of 2 Linked List
+3. Cycle detection and Removal (Floyd's Algorithm)
