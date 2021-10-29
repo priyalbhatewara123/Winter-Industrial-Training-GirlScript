@@ -1,0 +1,48 @@
+INFIX PREFIX AND POSTFIX EXPRESSIONS
+
+Expression : Operators and operands
+a + b * c - d   -> Infix
+
+Postfix  -> Operators after operands
+Prefix ->  Operators before operands
+
+
+Precedence and Associativity Table
+
+Operators         Associativity
+
+Brackets
+^              Right to left
+* , /		   left to right
++ , -          left to right
+
+
+Infix To Postfix Conversion
+
+Infix:  a + b * c
+Postfix: abc * +
+
+a + (b * c)
+a + (bc*)
+abc * +
+
+
+Infix : (a + b) * (c + d)
+Postfix: ab + cd +*
+
+(a + b) * (c + d)
+(ab + ) * (cd + )
+ab + cd +*
+
+
+Infix: a + b * (c - d)
+Postfix: abcd - * +
+
+Infix: a + b * c / d + e
+Postfix:
+
+a + ((b * c) / d ) + e
+a + ((bc*) / d) + e
+a + (bc*d / ) + e
+(abc*d / +) + e
+abc*d / +e +
