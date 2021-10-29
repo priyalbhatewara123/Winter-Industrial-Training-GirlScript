@@ -108,3 +108,8 @@ This repository contains all the code and PPT's for future reference.
    * Deletion in Middle
 2. Intersection of 2 Linked List
 3. Cycle detection and Removal (Floyd's Algorithm)
+
+## Day 12 (28/10/2021)
+1. Stacks and Queues implementation using Array
+2. Duplicate Brackets
+3. Balanced brackets
