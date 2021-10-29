@@ -113,3 +113,9 @@ This repository contains all the code and PPT's for future reference.
 1. Stacks and Queues implementation using Array
 2. Duplicate Brackets
 3. Balanced brackets
+
+## Day 13 (29/10/2021)
+1. Next greater element
+2. Print binary numbers from 1 to n.
+3. Infix to postfix
+4. Infix to prefix
