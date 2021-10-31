@@ -1,0 +1,227 @@
+HASHING:
+
+Key - value pairs
+
+Not useful when :
+1. Sorted data
+2. Order is to maintain
+3. Find close values
+4. Prefix search - TRIE
+
+
+Applications :
+1. Dictonaries
+2. Database indexing
+3. Crytography
+4. Caches
+5. Symbol table in compiler/interpreter
+6. Routers
+
+
+
+1. Direct Address Table
+
+100 keys from 0-99
+arr[100]
+key(index) = value
+
+Problem with direct address table:
+1. Large ranges
+2. value is string.
+3. float values
+
+
+
+Hashing:
+
+Keys -> hash Function -> hash table (n)
+
+Requirements for Hash functions:
+1. Should always map a larger key into smaller key.
+2. Should generate keys from 0 - n-1. (imp)
+3. Should be a fast
+4. Should uniformaly distribute the keys (V. imp)
+
+
+Example of Hash fuctions
+
+1. For integer values
+keys: {40,21,8,6}
+
+hash(keys) = key % 7
+
+Hash table (array)
+0 -> 21
+1 -> 8
+2
+3
+4
+5 -> 40
+6 -> 6
+
+
+2. For strings
+	1. sum of ASCII % m 
+	2. weighted sum :
+
+	(s[0] * x^0 + s[i] * x^1 + s[2]*x^2 ....... s[k]*x^k) % m
+
+
+3. Universal hashing -> set of hash functions and we randomly pick 1
+
+
+Collision
+
+Keys: {50,21,58,17,15,49,56,22,23,25}
+Hash func = key % 7
+
+0 -> 21
+1 -> 50 -> 15 -> 22
+2 -> 58
+3 -> 17
+4
+5
+6
+
+
+Techniqies to reduce collision
+
+1. Chaining 
+2. Open addressing
+
+
+
+1. CHAINING:
+using array of linked list 
+
+m = size of our hash table
+n = no of keys we are inserting
+
+Load factor =  n/m
+
+Rehashing -> New hash table of size 2*m. 
+
+
+
+Data Structutes to store chains:
+1. Linked list O(n)
+2. Dynamic size arrays (vector) -> O(n)
+3. Self balancing BST / AVL trees / Red black trees -> O(logn)
+
+
+2. Open Addressing:
+no of slots available >= no of keys to be inserted
+
+1. Linear Probing
+2. Quadratic Probing
+3. Double Hashing
+
+
+
+1. Linear Probing -> linearly search for next empty slot if collision occurs.
+
+Keys: {50,21,58,17,15,49,56,22,23,25}
+Hash func = key % 7
+
+0 -> 21
+1 -> 50 
+2 -> 58
+3 -> 17
+4 -> 15
+5 -> 
+6 ->
+7 ->
+8 ->
+9 ->
+
+ith clusturing -> (hash(key) + i) % m
+
+
+2. Quadratic Probing:
+hash(key , i) = (hash(key) + i*i) % m
+
+Disadvantage -> We might not get an empty slot even if it is present.
+
+
+3. Double Hashing
+Two hash functions
+Best to avoid collision
+
+hash(key , i) = (h1(key) + i*h2(key)) % m
+
+Keys: {50,21,58,17,15,49,56,22,23,25}
+Hash func1 = key % 7
+Hash func2 = key % 11
+
+
+Hash Table
+0 -> 20
+1 -> 50
+2 -> 58
+3 -> 17
+4
+5 -> 15
+6
+7
+8
+9
+10
+11
+12
+13
+14
+
+key = 15
+(1 + 1 * 4)% 15
+5
+
+
+
+Chaining                             Open Addressing
+1. Hash table never gets filled up    1. Hable table might get filled up
+2. One cluster doesn't affect other   2. One cluster affects other  
+2. Extra space required for link      3. No extra space
+
+
+
+STL:
+
+
+1. unordered_map o(1)
+inner implementation -> hashing + chaining
+
+1. Declare unordered_map
+
+unordered_map <datatype of key , datatype of value> umap;
+
+"abc" -> 1
+"xyz" -> 2
+"pqr" -> 3
+
+2. Insert
+umap["abc"] = 1
+
+pair<string , int> p;
+p.first
+p.second
+
+3. Search for a key
+find(key) -> iterator to the value
+if(find(key) != umap.end())
+	key is present
+
+
+
+4. Delete
+umap.erase(key)
+
+2. unordered_set 
+Declaration -> unordered_set <string> uset; 
+
+Insert : uset.insert("xyz")
+Search :
+if(find(key) != uset.end())
+	key is present
+
+
+Delete : uset.erase(value)
