@@ -119,3 +119,15 @@ This repository contains all the code and PPT's for future reference.
 2. Print binary numbers from 1 to n.
 3. Infix to postfix
 4. Infix to prefix
+
+## Day 14 (31/10/2021)
+Hashing
+   * Internal Implementation using Hash functions
+   * Applications of Hashing
+   * Direct Address Table
+   * Collision Handling
+      * Chaining
+      * Open Addressing -> Linear Probing , Quadratic Probing and Double Hashing.
+   * Comparision of Collision teachniques
+   * unordered_map
+   * unordered_set
