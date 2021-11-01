@@ -131,3 +131,14 @@ Hashing
    * Comparision of Collision teachniques
    * unordered_map
    * unordered_set
+
+## Day 15 (1/11/2021)
+1. Introduction to Trees
+2. Binary Trees and some important terminology
+3. Types of Binary Trees
+4. Tree Traversals
+   * DFS - Preorder , Postorder , Inorder
+   * BFS/ Level order 
+5. Height of Binary Tree
+6. Check if a node is present in a tree?
+7. Find minimum and maximum value in a Binary Tree.
