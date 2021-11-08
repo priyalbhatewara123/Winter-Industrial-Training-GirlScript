@@ -132,7 +132,7 @@ Hashing
    * unordered_map
    * unordered_set
 
-## Day 15 (1/11/2021)
+## Day 15 (01/11/2021)
 1. Introduction to Trees
 2. Binary Trees and some important terminology
 3. Types of Binary Trees
@@ -142,3 +142,9 @@ Hashing
 5. Height of Binary Tree
 6. Check if a node is present in a tree?
 7. Find minimum and maximum value in a Binary Tree.
+
+## Day 16 (08/11/2021)
+1. Balanced Binary Tree
+2. Flatten a Binary Tree to Linked list
+3. Binary Search Tree Intoduction
+4. Validate Binary Search Tree
