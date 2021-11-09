@@ -148,3 +148,13 @@ Hashing
 2. Flatten a Binary Tree to Linked list
 3. Binary Search Tree Intoduction
 4. Validate Binary Search Tree
+
+## Day 17 (09/11/2021)
+1. Introduction to Graph Data Structure
+2. Types of Graphs
+3. Graph Representation
+   * Adjacency List
+   * Adjacency Matrix
+4. BFS
+5. DFS
+6. Is there a path between given source and destination ?
