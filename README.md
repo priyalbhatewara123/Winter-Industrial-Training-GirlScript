@@ -158,3 +158,8 @@ Hashing
 4. BFS
 5. DFS
 6. Is there a path between given source and destination ?
+
+## Day 18 (10/11/2021)
+1. Dijkstra's Algorithm
+2. Minimum Spanning Tree intro
+3. Prim's Algorithm
