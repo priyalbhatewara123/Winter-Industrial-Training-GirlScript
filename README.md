@@ -163,3 +163,10 @@ Hashing
 1. Dijkstra's Algorithm
 2. Minimum Spanning Tree intro
 3. Prim's Algorithm
+
+## Day 19 (11/11/2021)
+1. Introduction to Dynamic Programming
+2. Fibonacci Series
+3. Climbing Stairs
+4. Minimum Path Sum
+5. Maximum sum with no consecutive
