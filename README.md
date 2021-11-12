@@ -170,3 +170,9 @@ Hashing
 3. Climbing Stairs
 4. Minimum Path Sum
 5. Maximum sum with no consecutive
+
+## Day 20 (12/11/2021)
+1. Longest Common Subsequence
+2. 01 Knapsack
+3. Unbounded Knapsack - Rod Cutting Problem
+4. Longest Palindrome Subsequence
